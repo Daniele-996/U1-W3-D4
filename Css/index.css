@@ -1,0 +1,71 @@
+body {
+  background: linear-gradient(to bottom, rgb(255, 243, 226), rgb(4, 148, 220));
+  text-align: center;
+  width: 60%;
+  margin: auto;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1 {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: rgb(244, 99, 3);
+}
+
+h3 {
+  color: white;
+}
+.section {
+  display: inline-block;
+  text-align: left;
+  width: 20%;
+  background-color: rgb(236, 250, 87);
+  border: 2px solid rgb(255, 196, 4);
+  border-radius: 50%;
+  padding: 0px;
+  margin: 0px;
+}
+
+button {
+  background-color: rgb(236, 250, 87);
+  width: 100%;
+  border-radius: 50%;
+  border: transparent;
+  padding: 20px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+}
+
+button:hover {
+  background-color: rgb(189, 200, 70);
+  width: 100%;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+}
+
+.selectDiv {
+  display: inline-block;
+  background-color: rgb(9, 133, 171);
+  width: 9%;
+  border: 2px solid rgb(1, 90, 117);
+  border-radius: 50%;
+  padding: 2px;
+  margin: 0, 5%;
+}
+.classCart {
+  display: inline-block;
+  background-color: rgb(174, 160, 238);
+  width: 9%;
+  border: 2px solid rgb(202, 104, 244);
+  border-radius: 5px;
+  padding: 2px;
+  margin: 0, 5%;
+}
+.selectCart {
+  display: inline-block;
+  background-color: rgb(80, 121, 233);
+  width: 23.5%;
+  border: 2px solide blue;
+}
+
+.selected {
+  color: rgb(239, 77, 77);
+  background-color: rgb(145, 28, 28);
+}
